@@ -2,7 +2,7 @@ import java.io.Serializable;
 
 public class Address implements Serializable {
 	/**
-	 * 
+	 * @author Shyamal Poddar
 	 */
 	private static final long serialVersionUID = 1L;
 	private String shopName;
@@ -10,6 +10,7 @@ public class Address implements Serializable {
 	private String shopPostCode;
 	private String lon;
 	private String lat;
+	
 	public String getShopName() {
 		return shopName;
 	}
