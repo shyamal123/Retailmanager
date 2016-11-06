@@ -40,9 +40,9 @@ public class Example{
 			}else{
 				shopDetailsMap = shopManager.constructAddressMap(shopList);
 			}
-			return "Added Suceessfully";
+			return "Address has been Added Suceessfully";
 		}
-		return "Not Added";
+		return "Address has Not Added";
     }
 	
 	@RequestMapping("/findShops")
