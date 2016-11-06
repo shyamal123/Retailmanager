@@ -99,7 +99,7 @@ class ShopManagerImpl implements ShopManager{
 	}
 	//finding nearest addresses
 	
-	public String findNearestAdresses(Map<String,Address> addressMap,double currentLat,double currentLon){
+	public String findNearestAddresses(Map<String,Address> addressMap,double currentLat,double currentLon){
 		List<Address> addresses = new ArrayList<Address>();
 		String jsonresponse = null;
 		for(Map.Entry<String, Address> entry : addressMap.entrySet()){
